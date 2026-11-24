@@ -51,6 +51,7 @@ linear.plot <- ggplot(Data.Summary,
         linetype ="PAH-16 (mg/kg)")+
   scale_x_discrete(limits = c("OC-L","OC-M", "OC-H"))
 linear.plot
+ggsave("Figure1.png")
 
 #just a better visualisation of the overlap of data which was pretty large
 
